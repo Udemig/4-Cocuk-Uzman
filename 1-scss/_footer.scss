@@ -1,0 +1,20 @@
+@import "variables";
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px;
+  background-color: $black;
+  &-nav {
+    margin-left: 4px;
+    padding: 10px;
+    .ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+}
